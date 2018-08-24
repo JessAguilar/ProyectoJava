@@ -22,6 +22,7 @@ public class LlamadaEntidad {
     this.IDPersonaSalida=IDPersonaSalida;
     this.IDPersonaLlegada=IDPersonaLlegada;
     this.inicioLlamada=inicioLlamada;
+    this.finLlamada=finLlamada;
     
     }
 }
