@@ -19,6 +19,9 @@ public class LlamadaEntidad {
     Double costoTotal;
     
     public LlamadaEntidad(int IDPersonaSalida,int IDPersonaLlegada,Date inicioLlamada,Date finLlamada,String tipoLlamada,Double costoTotal){
+    this.IDPersonaSalida=IDPersonaSalida;
     this.IDPersonaLlegada=IDPersonaLlegada;
+    this.inicioLlamada=inicioLlamada;
+    
     }
 }
